@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'LoginScreen.dart';
+import 'package:ui_login/OnBoarding.dart';
+//import 'LoginScreen.dart';
 
 void main() {
   runApp(MyApp());
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       debugShowCheckedModeBanner: false,
-      home: LoginScreen(),
+      home: OnBoarding(),
     );
   }
 }
